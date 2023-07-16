@@ -213,3 +213,11 @@ main {
     justify-content: space-evenly;
     color: #727272;
 }
+
+footer {
+    display: flex;
+    padding: 120px;
+    justify-content: center;
+    background: #fff8f3;
+    border-radius: 8px;
+}
