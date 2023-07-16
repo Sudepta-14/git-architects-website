@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans:wght@400;700;800&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -91,6 +91,11 @@ nav li a {
     }
 }
 
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
 .teams-container {
     display: flex;
     align-items: center;
@@ -130,4 +135,81 @@ nav li a {
     padding: 20px 25px;
     cursor: pointer;
     border: 0;
+}
+
+.features {
+    margin: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.features .feature-title {
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+
+.ten-years {
+    border: 8px;
+    background: #ff900e;
+    color: #fff;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten-years p {
+    font-size: 1.5rem;
+}
+
+
+.feature-content .card {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 0px rgba(235, 220, 220, 0.6);
+}
+
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card-container {
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.facts-card-container .card-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.facts-card-container .card-status {
+    font-size: 40px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sponspor {
+    text-align: center;
+}
+
+.sponspor-img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #727272;
 }
